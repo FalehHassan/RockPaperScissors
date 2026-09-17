@@ -25,3 +25,17 @@ function getComputerChoice() {
 const ComputerChoice = getComputerChoice();
 console.log(ComputerChoice);
 
+
+
+function getHumanChoice() {
+
+    let userChoice;
+    
+
+    userChoice = prompt("rock, paper, scissors...");
+
+    return userChoice;
+}
+
+const humanChoice = getHumanChoice();
+console.log(humanChoice);
